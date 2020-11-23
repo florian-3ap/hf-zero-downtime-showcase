@@ -1,0 +1,15 @@
+build:
+  version: @project.version@
+
+spring:
+  main:
+    banner-mode: off
+
+server:
+  shutdown: graceful
+
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
