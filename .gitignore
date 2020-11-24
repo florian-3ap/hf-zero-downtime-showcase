@@ -1,7 +1,5 @@
 target/
 
-.*
-
 ### STS ###
 .apt_generated
 .classpath
@@ -12,7 +10,8 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-*.idea
+.idea
+/.idea/*
 *.iws
 *.iml
 *.ipr
@@ -28,3 +27,4 @@ target/
 ### VS Code ###
 .vscode/
 bin/
+
